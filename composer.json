@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/dom-crawler": "3.3.*",
+        "symfony/css-selector": "3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blog\\": "src/",
+            "FileReader\\": "src/",
+            "BlogCrawler\\": "src/",
+            "JsonWriter\\": "src/"
+        }
+    }
+}
